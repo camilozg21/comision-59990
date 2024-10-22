@@ -3,35 +3,142 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Simulador de crédito</title>
 </head>
 <body>
-    <header>
-        <nav>
+    <header id="goTop">
+        <nav class="navbar">
             <ul>
-                <li><a href="">Inicio</a></li>
-                <li><a href="">Sobre nosotros</a></li>
-                <li><a href="">Simulador</a></li>
-                <li><a href="">Contacto & PQR</a></li>
-                <li><a href="">Iniciar sesión</a></li>
+                <li><a href="#goTop">Inicio</a></li>
+                <li><a href="#nosotros">Sobre nosotros</a></li>
+                <li><a href="#simulador">Simulador</a></li>
             </ul>
         </nav>
+        <section class="header content">
+        <div class="header-video">
+            <video muted autoplay loop src="./assets/video/6774633-uhd_2560_1440_30fps.mp4"></video>
+        </div>
+        <div class="header-overlay"></div>
+        <div class="header-content">
+            <h1>Micro<span>Futuro</span></h1>
+            <p>Nuestra plataforma en línea <span>facilita el proceso de solicitud</span>, permitiendo a los usuarios gestionar sus créditos de <span>manera ágil y transparente.</span> </p>
+            <a class= "btn" href="#simulador">Solicítalo ahora mismo</a>
+        </div>
+    </section>
     </header>
     <main>
-        <section>
-            <h1>MicroFuturo</h1>
-            <h2>Tu futuro a un clic</h2>
+        <section id="nosotros" class="nosotros">
+            <h2>Sobre nosotros</h2>
+            <div class="card card1">
+                <p>En <span class="resaltar">MicroFuturo</span>, creemos en el poder del emprendimiento y en la capacidad de cada individuo para <span class="resaltar">transformar su vida y su comunidad.</span> <span class="complemento">Nos dedicamos a la colocación de microcréditos accesibles y flexibles.</span></p>
+                <img src="./assets/img/disenadores-graficos-reunion_1170-2002.jpg" alt="">
+            </div>
+            <div class="card card2">
+                <img src="./assets/img/adult-harvesting-coffee.jpg" alt="">
+                <p>Nuestra misión es proporcionar financiamiento a quienes tradicionalmente <span class="resaltar">han sido excluidos del sistema bancario</span>, brindando apoyo a emprendedores, artesanos y pequeños agricultores.</p>
+                </div>
+            <div class="card card3">
+                <p>En <span class="resaltar">MicroFuturo</span>, no solo otorgamos préstamos; <span class="resaltar">acompañamos a nuestros clientes en su camino hacia el éxito.</span> <span class="complemento">Contamos con un equipo de asesores que ofrecen capacitaciones en gestión financiera y planificación de negocios.</span></p>
+                <img src="./assets/img/medium-shot-woman-working-alone.jpg" alt="">
+            </div>
         </section>
-
-        <section>
-            <p>En MicroFuturo, creemos en el poder del emprendimiento y en la capacidad de cada individuo para transformar su vida y su comunidad. Nos dedicamos a la colocación de microcréditos accesibles y flexibles, diseñados para impulsar pequeñas iniciativas comerciales y proyectos personales.</p>
-            <p>Nuestra misión es proporcionar financiamiento a quienes tradicionalmente han sido excluidos del sistema bancario, brindando apoyo a emprendedores, artesanos y pequeños agricultores. Ofrecemos montos que varían desde microcréditos iniciales para comenzar un negocio hasta financiamientos más sustanciales para expandir operaciones.</p>
-            <p>En MicroFuturo, no solo otorgamos préstamos; acompañamos a nuestros clientes en su camino hacia el éxito. Contamos con un equipo de asesores que ofrecen capacitaciones en gestión financiera, planificación de negocios y desarrollo de habilidades, asegurando que cada emprendedor esté preparado para aprovechar al máximo su inversión.</p>
-            <p>Además, nuestra plataforma en línea facilita el proceso de solicitud y seguimiento, permitiendo a los usuarios gestionar sus créditos de manera ágil y transparente. Creemos que cada pequeño paso puede llevar a grandes logros, y estamos aquí para hacer que esos sueños se hagan realidad.</p>
-            <p>Visión: Construir un ecosistema de apoyo para emprendedores que fomente la inclusión financiera y el desarrollo sostenible en nuestras comunidades.</p>
+        <section id="simulador" class="simulador">
+            <form class="formularioSimulador" action="">
+                <p>
+                    <label for="nombre">Nombre</label>
+                    <input type="text" id="nombre" placeholder="Juan Pérez">
+                </p>
+                <p>
+                    <label for="edad">Edad</label>
+                    <input type="number" id="edad" placeholder="99">
+                </p>
+                <p>
+                    <label for="departamento">Departamento</label>
+                    <select name="departamento" id="departamento">
+                        <option value="null">-Seleccione un departamento-</option>
+                        <option value="amazonas">Amazonas</option>
+                        <option value="antioquia">Antioquia</option>
+                        <option value="arauca">Arauca</option>
+                        <option value="atlantico">Atlántico</option>
+                        <option value="bogota">Bogotá D.C.</option>
+                        <option value="bolivar">Bolívar</option>
+                        <option value="boyaca">Boyacá</option>
+                        <option value="caldas">Caldas</option>
+                        <option value="caqueta">Caqueta</option>
+                        <option value="casanare">Casanare</option>
+                        <option value="cauca">Cauca</option>
+                        <option value="cesar">Cesar</option>
+                        <option value="choco">Chocó</option>
+                        <option value="cordoba">Córdoba</option>
+                        <option value="cundinamarca">Cundinamarca</option>
+                        <option value="guiania">Guainía</option>
+                        <option value="guaviare">Guaviare</option>
+                        <option value="huila">Huila</option>
+                        <option value="guajira">La Guajira</option>
+                        <option value="magdalena">Magdalena</option>
+                        <option value="meta">Meta</option>
+                        <option value="narino">Nariño</option>
+                        <option value="norteSantander">Norte de Santander</option>
+                        <option value="putumayo">Putumayo</option>
+                        <option value="quindio">Quindío</option>
+                        <option value="risaralda">Risaralda</option>
+                        <option value="sanAndres">San Andrés y Providencia</option>
+                        <option value="santander">Santander</option>
+                        <option value="sucre">Sucre</option>
+                        <option value="tolima">Tolima</option>
+                        <option value="valleCauca">Valle del Cauca</option>
+                        <option value="vaupes">Vaupés</option>
+                        <option value="vichada">Vichada</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="credito">Valor del crédito</label>
+                    <input type="number" id="credito" placeholder="1000000">
+                </p>
+                <p>
+                    <label for="plazo">Plazo</label>
+                    <input type="number" id="plazo" placeholder="24">
+                </p>
+                <p>
+                    <label for="activos">Valor de sus activos</label>
+                    <input type="number" id="activos" placeholder="10000000">
+                </p>
+                <p>
+                    <div class="titulo">
+                        <label for="sexo">Sexo</label>
+                    </div>
+                    <div class="opciones">
+                        <input type= "radio" name="sexo" value="M">Masculino</input>
+                        <input type= "radio" name="sexo" value="F">Femenino</input>
+                    </div>
+                </p>
+                <p>
+                    <div class="titulo">
+                        <label for="civil">Estdo Civil</label>
+                    </div>
+                    <div class="opciones">
+                        <input type= "radio" name="civil" value="S">Soltero</input>
+                        <input type= "radio" name="civil" value="C">Casado</input>
+                        <input type= "radio" name="civil" value="C">Unión libre</input>
+                        <input type= "radio" name="civil" value="S">Separado</input>
+                        <input type= "radio" name="civil" value="C">Viudo</input>
+                    </div>
+                </p>
+                <p>
+                    <div class="titulo">
+                        <label for="vivienda">Estdo Civil</label>
+                    </div>
+                    <div class="opciones">
+                        <input type= "radio" name="vivienda" value="F">Familiar</input>
+                        <input type= "radio" name="vivienda" value="F">Alquiler</input>
+                        <input type= "radio" name="vivienda" value="P">Propia</input>
+                    </div>
+                </p>
+                <button class= "botonEstudio" id="estudioCredito">Hacer el estudio de crédito</button>
+            </form>
         </section>
     </main>
-
     <footer>
 
     </footer>
