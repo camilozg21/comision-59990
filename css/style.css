@@ -168,17 +168,59 @@
 
 .simulador{
     margin: 2rem;
+    height: 100vh;
 }
 
-.simulador p{
+form{
+    width: 90%;
+    margin: auto;
+    font-size: 1rem;
+}
+
+.formContainer{
+    margin-top: 1rem;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    gap: 1.5rem;
+}
+
+.formGroup{
+    display: grid;
+    grid-template-columns: 100%;
+}
+
+.formGroup input{
+    background: none;
+    font-size: 1rem;
+    padding: .6rem .3rem;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid gray;
+}
+
+.opciones input{
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+
+.formSubmit{
+    margin: 2rem 0rem;
+    background-color: black;
+    color: white;
+    padding: 1rem;
+    width: 15rem;
+    border-radius: 3rem;
+    box-shadow: none;
+    border: none;
+    text-decoration: none;
+}
+
+.formSubmit:hover{
+    background-color: #8e58ff;
+    color: white;
+}
+/* .formularioSimulador{
+    margin: 2rem;
     display: grid;
     grid-template-columns: repeat(2,50%);
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-}
-
-.simulador p .opciones input{
-    margin: 1rem;
-
-}
-
+} */

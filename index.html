@@ -45,97 +45,93 @@
         </section>
         <section id="simulador" class="simulador">
             <form class="formularioSimulador" action="">
-                <p>
-                    <label for="nombre">Nombre</label>
-                    <input type="text" id="nombre" placeholder="Juan Pérez">
-                </p>
-                <p>
-                    <label for="edad">Edad</label>
-                    <input type="number" id="edad" placeholder="99">
-                </p>
-                <p>
-                    <label for="departamento">Departamento</label>
-                    <select name="departamento" id="departamento">
-                        <option value="null">-Seleccione un departamento-</option>
-                        <option value="amazonas">Amazonas</option>
-                        <option value="antioquia">Antioquia</option>
-                        <option value="arauca">Arauca</option>
-                        <option value="atlantico">Atlántico</option>
-                        <option value="bogota">Bogotá D.C.</option>
-                        <option value="bolivar">Bolívar</option>
-                        <option value="boyaca">Boyacá</option>
-                        <option value="caldas">Caldas</option>
-                        <option value="caqueta">Caqueta</option>
-                        <option value="casanare">Casanare</option>
-                        <option value="cauca">Cauca</option>
-                        <option value="cesar">Cesar</option>
-                        <option value="choco">Chocó</option>
-                        <option value="cordoba">Córdoba</option>
-                        <option value="cundinamarca">Cundinamarca</option>
-                        <option value="guiania">Guainía</option>
-                        <option value="guaviare">Guaviare</option>
-                        <option value="huila">Huila</option>
-                        <option value="guajira">La Guajira</option>
-                        <option value="magdalena">Magdalena</option>
-                        <option value="meta">Meta</option>
-                        <option value="narino">Nariño</option>
-                        <option value="norteSantander">Norte de Santander</option>
-                        <option value="putumayo">Putumayo</option>
-                        <option value="quindio">Quindío</option>
-                        <option value="risaralda">Risaralda</option>
-                        <option value="sanAndres">San Andrés y Providencia</option>
-                        <option value="santander">Santander</option>
-                        <option value="sucre">Sucre</option>
-                        <option value="tolima">Tolima</option>
-                        <option value="valleCauca">Valle del Cauca</option>
-                        <option value="vaupes">Vaupés</option>
-                        <option value="vichada">Vichada</option>
-                    </select>
-                </p>
-                <p>
-                    <label for="credito">Valor del crédito</label>
-                    <input type="number" id="credito" placeholder="1000000">
-                </p>
-                <p>
-                    <label for="plazo">Plazo</label>
-                    <input type="number" id="plazo" placeholder="24">
-                </p>
-                <p>
-                    <label for="activos">Valor de sus activos</label>
-                    <input type="number" id="activos" placeholder="10000000">
-                </p>
-                <p>
-                    <div class="titulo">
+                <div class="formContainer">
+                    <div class="formGroup">
+                        <label for="nombre">Nombre</label>
+                        <input type="text" id="nombre" placeholder="Juan Pérez">
+                    </div>
+                    <div class="formGroup">
+                        <label for="edad">Edad</label>
+                        <input type="number" id="edad" placeholder="99">
+                    </div>
+                    <div class="formGroup">
+                        <label for="departamento">Departamento</label>
+                        <select name="departamento" id="departamento">
+                            <option value="null">-Seleccione un departamento-</option>
+                            <option value="amazonas">Amazonas</option>
+                            <option value="antioquia">Antioquia</option>
+                            <option value="arauca">Arauca</option>
+                            <option value="atlantico">Atlántico</option>
+                            <option value="bogota">Bogotá D.C.</option>
+                            <option value="bolivar">Bolívar</option>
+                            <option value="boyaca">Boyacá</option>
+                            <option value="caldas">Caldas</option>
+                            <option value="caqueta">Caqueta</option>
+                            <option value="casanare">Casanare</option>
+                            <option value="cauca">Cauca</option>
+                            <option value="cesar">Cesar</option>
+                            <option value="choco">Chocó</option>
+                            <option value="cordoba">Córdoba</option>
+                            <option value="cundinamarca">Cundinamarca</option>
+                            <option value="guiania">Guainía</option>
+                            <option value="guaviare">Guaviare</option>
+                            <option value="huila">Huila</option>
+                            <option value="guajira">La Guajira</option>
+                            <option value="magdalena">Magdalena</option>
+                            <option value="meta">Meta</option>
+                            <option value="narino">Nariño</option>
+                            <option value="norteSantander">Norte de Santander</option>
+                            <option value="putumayo">Putumayo</option>
+                            <option value="quindio">Quindío</option>
+                            <option value="risaralda">Risaralda</option>
+                            <option value="sanAndres">San Andrés y Providencia</option>
+                            <option value="santander">Santander</option>
+                            <option value="sucre">Sucre</option>
+                            <option value="tolima">Tolima</option>
+                            <option value="valleCauca">Valle del Cauca</option>
+                            <option value="vaupes">Vaupés</option>
+                            <option value="vichada">Vichada</option>
+                        </select>
+                    </div>
+                    <div class="formGroup">
+                        <label for="credito">Valor del crédito</label>
+                        <input type="number" id="credito" placeholder="$1,000,000">
+                    </div>
+                    <div class="formGroup">
+                        <label for="plazo">Plazo</label>
+                        <input type="number" id="plazo" placeholder="24">
+                    </div>
+                    <div class="formGroup">
+                        <label for="activos">Valor de sus activos</label>
+                        <input type="currency" id="activos" placeholder="10000000">
+                    </div>
+                    <div class="formGroup">
                         <label for="sexo">Sexo</label>
+                        <div class="opciones">
+                            <input type= "radio" name="sexo" value="M">Masculino</input>
+                            <input type= "radio" name="sexo" value="F">Femenino</input>
+                        </div>
                     </div>
-                    <div class="opciones">
-                        <input type= "radio" name="sexo" value="M">Masculino</input>
-                        <input type= "radio" name="sexo" value="F">Femenino</input>
-                    </div>
-                </p>
-                <p>
-                    <div class="titulo">
+                    <div class="formGroup">
                         <label for="civil">Estdo Civil</label>
+                        <div class="opciones">
+                            <input type= "radio" name="civil" value="S">Soltero</input>
+                            <input type= "radio" name="civil" value="C">Casado</input>
+                            <input type= "radio" name="civil" value="C">Unión libre</input>
+                            <input type= "radio" name="civil" value="S">Separado</input>
+                            <input type= "radio" name="civil" value="C">Viudo</input>
+                        </div>
                     </div>
-                    <div class="opciones">
-                        <input type= "radio" name="civil" value="S">Soltero</input>
-                        <input type= "radio" name="civil" value="C">Casado</input>
-                        <input type= "radio" name="civil" value="C">Unión libre</input>
-                        <input type= "radio" name="civil" value="S">Separado</input>
-                        <input type= "radio" name="civil" value="C">Viudo</input>
+                    <div class="formGroup">
+                        <label for="vivienda">Tipo de vivienda</label>
+                        <div class="opciones">
+                            <input type= "radio" name="vivienda" value="F">Familiar</input>
+                            <input type= "radio" name="vivienda" value="F">Alquiler</input>
+                            <input type= "radio" name="vivienda" value="P">Propia</input>
+                        </div>
                     </div>
-                </p>
-                <p>
-                    <div class="titulo">
-                        <label for="vivienda">Estdo Civil</label>
-                    </div>
-                    <div class="opciones">
-                        <input type= "radio" name="vivienda" value="F">Familiar</input>
-                        <input type= "radio" name="vivienda" value="F">Alquiler</input>
-                        <input type= "radio" name="vivienda" value="P">Propia</input>
-                    </div>
-                </p>
-                <button class= "botonEstudio" id="estudioCredito">Hacer el estudio de crédito</button>
+                </div>
+                <input class= "botonEstudio formSubmit" type="submit" id="estudioCredito" value="Hacer el estudio de crédito"</input>
             </form>
         </section>
     </main>
