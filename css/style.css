@@ -168,13 +168,14 @@
 
 .simulador{
     margin: 2rem;
-    height: 100vh;
+    /* height: 100vh; */
 }
 
 form{
     width: 90%;
     margin: auto;
     font-size: 1rem;
+    padding-top: 4rem;
 }
 
 .formContainer{
@@ -208,19 +209,44 @@ form{
     background-color: black;
     color: white;
     padding: 1rem;
-    width: 15rem;
+    width: 20rem;
     border-radius: 3rem;
     box-shadow: none;
     border: none;
     text-decoration: none;
+    font-size: 1rem;
 }
 
 .formSubmit:hover{
     background-color: #8e58ff;
     color: white;
 }
-/* .formularioSimulador{
+
+.simulador h2{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 400;
+    padding-top: 2rem;
+}
+
+.simulador h2 span{
+    color: #5430fc;
+}
+
+.leyenda{
     margin: 2rem;
-    display: grid;
-    grid-template-columns: repeat(2,50%);
+}
+
+.simulador p{
+    text-align: center;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .historial{
+    margin-left: 2rem;
 } */
