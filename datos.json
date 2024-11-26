@@ -1,0 +1,136 @@
+{
+    "AGENCIAS":[
+        {
+            "departamento": "Amazonas",
+            "clasificacion":"Alto"
+        },
+        {
+            "departamento": "Antioquia",
+            "clasificacion":"Bajo"
+        },
+        {
+            "departamento": "Arauca",
+            "clasificacion":"Alto"
+        },
+        {
+            "departamento": "Atlántico",
+            "clasificacion":"Bajo"
+        },
+        {
+            "departamento": "Bogotá D.C.",
+            "clasificacion":"Bajo"
+        },
+        {
+            "departamento": "Bolívar",
+            "clasificacion":"Bajo"
+        },
+        {
+            "departamento": "Boyacá",
+            "clasificacion":"Bajo"
+        },
+        {
+            "departamento": "Caldas",
+            "clasificacion":"Bajo"
+        },
+        {
+            "departamento": "Caqueta",
+            "clasificacion":"Alto"
+        },
+        {
+            "departamento": "Casanare",
+            "clasificacion":"Alto"
+        },
+        {
+            "departamento": "Cauca",
+            "clasificacion":"Alto"
+        },
+        {
+            "departamento": "Cesar",
+            "clasificacion":"Alto"
+        },
+        {
+            "departamento": "Chocó",
+            "clasificacion":"Alto"
+        },
+        {
+            "departamento": "Córdoba",
+            "clasificacion":"Bajo"
+        },
+        {
+            "departamento": "Cundinamarca",
+            "clasificacion":"Bajo"
+        },
+        {
+            "departamento": "Guainía",
+            "clasificacion":"Alto"
+        },
+        {
+            "departamento": "Guaviare",
+            "clasificacion":"Alto"
+        },
+        {
+            "departamento": "Huila",
+            "clasificacion":"Bajo"
+        },
+        {
+            "departamento": "La Guajira",
+            "clasificacion":"Alto"
+        },
+        {
+            "departamento": "Magdalena",
+            "clasificacion":"Bajo"
+        },
+        {
+            "departamento": "Meta",
+            "clasificacion":"Alto"
+        },
+        {
+            "departamento": "Nariño",
+            "clasificacion":"Bajo"
+        },
+        {
+            "departamento": "Norte de Santander",
+            "clasificacion":"Alto"
+        },
+        {
+            "departamento": "Putumayo",
+            "clasificacion":"Alto"
+        },
+        {
+            "departamento": "Quindío",
+            "clasificacion":"Bajo"
+        },
+        {
+            "departamento": "Risaralda",
+            "clasificacion":"Bajo"
+        },
+        {
+            "departamento": "San Andrés y Providencia",
+            "clasificacion":"Alto"
+        },
+        {
+            "departamento": "Santander",
+            "clasificacion":"Bajo"
+        },
+        {
+            "departamento": "Sucre",
+            "clasificacion":"Alto"
+        },
+        {
+            "departamento": "Tolima",
+            "clasificacion":"Bajo"
+        },
+        {
+            "departamento": "Valle del Cauca",
+            "clasificacion":"Bajo"
+        },
+        {
+            "departamento": "Vaupés",
+            "clasificacion":"Alto"
+        },
+        {
+            "departamento": "Vichada",
+            "clasificacion":"Alto"
+        }
+    ]
+}
