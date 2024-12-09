@@ -1,146 +1,153 @@
-// const AGENCIAS =[
-//     {
-//         departamento: "Amazonas",
-//         clasificacion:"Alto"
-//     },
-//     {
-//         departamento: "Antioquia",
-//         clasificacion:"Bajo"
-//     },
-//     {
-//         departamento: "Arauca",
-//         clasificacion:"Alto"
-//     },
-//     {
-//         departamento: "Atlántico",
-//         clasificacion:"Bajo"
-//     },
-//     {
-//         departamento: "Bogotá D.C.",
-//         clasificacion:"Bajo"
-//     },
-//     {
-//         departamento: "Bolívar",
-//         clasificacion:"Bajo"
-//     },
-//     {
-//         departamento: "Boyacá",
-//         clasificacion:"Bajo"
-//     },
-//     {
-//         departamento: "Caldas",
-//         clasificacion:"Bajo"
-//     },
-//     {
-//         departamento: "Caqueta",
-//         clasificacion:"Alto"
-//     },
-//     {
-//         departamento: "Casanare",
-//         clasificacion:"Alto"
-//     },
-//     {
-//         departamento: "Cauca",
-//         clasificacion:"Alto"
-//     },
-//     {
-//         departamento: "Cesar",
-//         clasificacion:"Alto"
-//     },
-//     {
-//         departamento: "Chocó",
-//         clasificacion:"Alto"
-//     },
-//     {
-//         departamento: "Córdoba",
-//         clasificacion:"Bajo"
-//     },
-//     {
-//         departamento: "Cundinamarca",
-//         clasificacion:"Bajo"
-//     },
-//     {
-//         departamento: "Guainía",
-//         clasificacion:"Alto"
-//     },
-//     {
-//         departamento: "Guaviare",
-//         clasificacion:"Alto"
-//     },
-//     {
-//         departamento: "Huila",
-//         clasificacion:"Bajo"
-//     },
-//     {
-//         departamento: "La Guajira",
-//         clasificacion:"Alto"
-//     },
-//     {
-//         departamento: "Magdalena",
-//         clasificacion:"Bajo"
-//     },
-//     {
-//         departamento: "Meta",
-//         clasificacion:"Alto"
-//     },
-//     {
-//         departamento: "Nariño",
-//         clasificacion:"Bajo"
-//     },
-//     {
-//         departamento: "Norte de Santander",
-//         clasificacion:"Alto"
-//     },
-//     {
-//         departamento: "Putumayo",
-//         clasificacion:"Alto"
-//     },
-//     {
-//         departamento: "Quindío",
-//         clasificacion:"Bajo"
-//     },
-//     {
-//         departamento: "Risaralda",
-//         clasificacion:"Bajo"
-//     },
-//     {
-//         departamento: "San Andrés y Providencia",
-//         clasificacion:"Alto"
-//     },
-//     {
-//         departamento: "Santander",
-//         clasificacion:"Bajo"
-//     },
-//     {
-//         departamento: "Sucre",
-//         clasificacion:"Alto"
-//     },
-//     {
-//         departamento: "Tolima",
-//         clasificacion:"Bajo"
-//     },
-//     {
-//         departamento: "Valle del Cauca",
-//         clasificacion:"Bajo"
-//     },
-//     {
-//         departamento: "Vaupés",
-//         clasificacion:"Alto"
-//     },
-//     {
-//         departamento: "Vichada",
-//         clasificacion:"Alto"
-//     }
-// ]
+const AGENCIAS =[
+    {
+        departamento: "Amazonas",
+        clasificacion:"Alto"
+    },
+    {
+        departamento: "Antioquia",
+        clasificacion:"Bajo"
+    },
+    {
+        departamento: "Arauca",
+        clasificacion:"Alto"
+    },
+    {
+        departamento: "Atlántico",
+        clasificacion:"Bajo"
+    },
+    {
+        departamento: "Bogotá D.C.",
+        clasificacion:"Bajo"
+    },
+    {
+        departamento: "Bolívar",
+        clasificacion:"Bajo"
+    },
+    {
+        departamento: "Boyacá",
+        clasificacion:"Bajo"
+    },
+    {
+        departamento: "Caldas",
+        clasificacion:"Bajo"
+    },
+    {
+        departamento: "Caqueta",
+        clasificacion:"Alto"
+    },
+    {
+        departamento: "Casanare",
+        clasificacion:"Alto"
+    },
+    {
+        departamento: "Cauca",
+        clasificacion:"Alto"
+    },
+    {
+        departamento: "Cesar",
+        clasificacion:"Alto"
+    },
+    {
+        departamento: "Chocó",
+        clasificacion:"Alto"
+    },
+    {
+        departamento: "Córdoba",
+        clasificacion:"Bajo"
+    },
+    {
+        departamento: "Cundinamarca",
+        clasificacion:"Bajo"
+    },
+    {
+        departamento: "Guainía",
+        clasificacion:"Alto"
+    },
+    {
+        departamento: "Guaviare",
+        clasificacion:"Alto"
+    },
+    {
+        departamento: "Huila",
+        clasificacion:"Bajo"
+    },
+    {
+        departamento: "La Guajira",
+        clasificacion:"Alto"
+    },
+    {
+        departamento: "Magdalena",
+        clasificacion:"Bajo"
+    },
+    {
+        departamento: "Meta",
+        clasificacion:"Alto"
+    },
+    {
+        departamento: "Nariño",
+        clasificacion:"Bajo"
+    },
+    {
+        departamento: "Norte de Santander",
+        clasificacion:"Alto"
+    },
+    {
+        departamento: "Putumayo",
+        clasificacion:"Alto"
+    },
+    {
+        departamento: "Quindío",
+        clasificacion:"Bajo"
+    },
+    {
+        departamento: "Risaralda",
+        clasificacion:"Bajo"
+    },
+    {
+        departamento: "San Andrés y Providencia",
+        clasificacion:"Alto"
+    },
+    {
+        departamento: "Santander",
+        clasificacion:"Bajo"
+    },
+    {
+        departamento: "Sucre",
+        clasificacion:"Alto"
+    },
+    {
+        departamento: "Tolima",
+        clasificacion:"Bajo"
+    },
+    {
+        departamento: "Valle del Cauca",
+        clasificacion:"Bajo"
+    },
+    {
+        departamento: "Vaupés",
+        clasificacion:"Alto"
+    },
+    {
+        departamento: "Vichada",
+        clasificacion:"Alto"
+    }
+]
 
 async function miJson(){
-    const responseJson = await fetch('datos.json');
-    const Data = await responseJson.json();
+    
+    fetch('https://api-colombia.com/api/v1/Department')
+        .then(response => response.json())
+        .then(Data => {
+            const AGENCIAS = Data
 
-    return Data.AGENCIAS
+            for (const departamento of AGENCIAS) {
+                opcion = document.createElement("option");
+                opcion.innerText = departamento.name;
+                opcion.value = departamento.name;
+                seleccion.appendChild(opcion);
+            };
+            })
 }
-
-const AGENCIAS = miJson()
 
 let seleccion = document.getElementById("departamento");
 
@@ -149,12 +156,17 @@ opcion.innerText = "-Seleccione un departamento-";
 opcion.value = null;
 seleccion.appendChild(opcion);
 
-for (const nombre of AGENCIAS) {
-    opcion = document.createElement("option");
-    opcion.innerText = nombre.departamento;
-    opcion.value = nombre.departamento;
-    seleccion.appendChild(opcion);
-}
+let opcion1 = document.createElement("option");
+opcion1.innerText = "Amazonas";
+opcion1.value = "Amazonas";
+seleccion.appendChild(opcion1);
+
+let opcion2 = document.createElement("option");
+opcion2.innerText = "Antioquia";
+opcion2.value = "Antioquia";
+seleccion.appendChild(opcion2);
+
+miJson();
 
 const CATEGORIAS = [
     {
